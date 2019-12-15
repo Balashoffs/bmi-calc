@@ -35,8 +35,8 @@ class _HeightWidgetState extends State<HeightWidget> {
               inactiveTrackColor: Color(0xff8d8e98),
               thumbColor: Color(0xffed1555),
               overlayColor: Color(0x29ed1555),
-              thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15.0),
-              overlayShape: RoundSliderOverlayShape(overlayRadius: 30.0),
+              thumbShape: RoundSliderThumbShape(enabledThumbRadius: 10.0),
+              overlayShape: RoundSliderOverlayShape(overlayRadius: 20.0),
             ),
             child: Slider(
               onChanged: (double newValue){

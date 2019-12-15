@@ -1,3 +1,4 @@
+import 'calculate.dart';
 import 'start_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,11 @@ class BimCalculator extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xff0a0e21),
         accentColor: Colors.purple,
       ),
-      home: StartWidget(),
+      initialRoute: '/',
+      routes: {
+        '/':(context) => StartWidget(),
+        '/calculate':(context) => Calculate(),
+      },
     );
   }
 }
